@@ -7,35 +7,25 @@
 }
 
 
-
 header{
-  background-color: blue;
-  height: 90px;
+  background-color: #bdb7ab;
+  height: 80px;
+
 }
+
 .container{
   padding: 0 1em;
 }
 
-section{
-  background-color: red;
-}
-footer{
-  background-color: yellow;
-}
-
-
-
 body{
   font-family: 'EB Garamond', serif;
-
-
+  background-image:url("background.jpg")
 
 }
 
 .logo
 {
-    width: 130px;
-    margin-left: 1rem;
+    width: 100px;
     padding-top: 1rem;
     float: left;
 }
@@ -64,15 +54,12 @@ a.active, a:hover{
 
 }
 
-.jumbotron{
-font-family: 'Shrikhand', cursive;
-text-align: center;
-font-weight: bold;
-text-shadow: #0080FF 1px 0 10px;
-font-size: large;
-height: 160px;
-width: 600px;
-background-color: #bdb7ab;
+.title{
+  font-family: 'Shrikhand', cursive;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: #0080FF 1px 0 10px;
+  font-size: large;
 }
 
 p{
