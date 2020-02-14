@@ -64,11 +64,14 @@ a.active, a:hover{
 
 p{
   font-size: 25px;
-  color: white;
+  color: blue;
 }
 
 .calender
 {
   font-size: 25px;
   color: white;
+}
+.card{
+  background-color: #bdb7ab;
 }
