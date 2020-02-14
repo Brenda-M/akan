@@ -11,9 +11,15 @@ text-shadow: #0080FF 1px 0 10px;
 font-size: large;
 height: 160px;
 width: 600px;
-background-color: white;
+background-color: #bdb7ab;
 }
 p{
+  font-size: 25px;
+  color: white;
+}
+
+.calender
+{
   font-size: 25px;
   color: white;
 }
