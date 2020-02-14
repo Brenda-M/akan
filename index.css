@@ -1,8 +1,69 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+
+header{
+  background-color: blue;
+  height: 90px;
+}
+.container{
+  padding: 0 1em;
+}
+
+section{
+  background-color: red;
+}
+footer{
+  background-color: yellow;
+}
+
+
+
 body{
   font-family: 'EB Garamond', serif;
-  background-image: url(wallpaper.jpg);
+
+
 
 }
+
+.logo
+{
+    width: 130px;
+    margin-left: 1rem;
+    padding-top: 1rem;
+    float: left;
+}
+
+nav li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+  float:right;
+}
+nav a{
+  color: white;
+  font-size: 15px;
+  padding: 7px 17px;
+  border-radius:3px;
+  text-transform: uppercase;
+
+}
+.pages{
+  float:right;
+}
+
+a.active, a:hover{
+  transition: .5s;
+  background: #1b9bff;
+
+}
+
 .jumbotron{
 font-family: 'Shrikhand', cursive;
 text-align: center;
@@ -13,6 +74,7 @@ height: 160px;
 width: 600px;
 background-color: #bdb7ab;
 }
+
 p{
   font-size: 25px;
   color: white;
