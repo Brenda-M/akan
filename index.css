@@ -75,3 +75,8 @@ p{
 .card{
   background-color: #bdb7ab;
 }
+
+#akannames{
+  width: 100%
+  border-collapse: separate;
+}
