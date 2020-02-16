@@ -17,14 +17,15 @@ body{
   text-align: center;
   font-size: large;
   border: 0.08em solid black;
-  margin: 100px 80px 40px 80px;
+  margin: 120px 100px 40px 120px;
   border-radius: 30px;
+  padding: 20px;
 }
 
 #title{
   font-family: 'Shrikhand', cursive;
   text-shadow: #0080FF 1px 0 10px;
-  font-size: 80px;
+  font-size: 50px;
 }
 
 p{
@@ -45,9 +46,19 @@ h2, h4{
   border-radius: 20px;
 }
 
+
+
 table.akannames{
-  width: 65%;
-  border: 1px solid #AAAAAA;
+  width: 55%;
+  border: 1px solid black;
   padding: 20px;
   margin-left: 20px;
+  font-size: 16px;
+  margin-left:15%;
+  margin-right:15%;
+  border-collapse: collapse;
+}
+
+thead.table-head{
+  font-weight: bold;
 }
