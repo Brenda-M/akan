@@ -20,6 +20,7 @@ body{
   margin: 120px 100px 40px 120px;
   border-radius: 30px;
   padding: 20px;
+  background-color: #8B008B;
 }
 
 #title{
@@ -30,7 +31,7 @@ body{
 
 p{
   font-size: 25px;
-  color: blue;
+  color: black;
   text-indent: 40px;
   align:justify;
   padding: 10px;
@@ -43,7 +44,7 @@ h2, h4{
 }
 
 .card{
-  background-color: #908A7E;
+  background-color: #e6e9ed;
   border-radius: 20px;
 }
 
@@ -64,8 +65,7 @@ table.akannames{
 
 .footer{
 
-        background-color: black;
-        color: blue;
+        background-color: #8B008B;
         font-size: 20px;
         margin: 30px;
         text-align: center;
