@@ -1,13 +1,16 @@
 function akanName(){
-  var Year= document.getElementById("n").value;
-  var CC= parseInt("id for year".slice(0,2));
-  var YY= parseInt ("id for year" slice(0,2));
-  var DD= document.getElementById("id for date").value;
-  var MM= document.getElementById("id for month").value;
+  let Year= document.getElementById("n").value;
+  let CC= parseInt(year.slice(0,2));
+  let YY= parseInt (year.slice(0,2));
+  let DD= document.getElementById(date).value;
+  let MM= document.getElementById(month).value;
 }
+
+
+
 
 var maleNames= ["Kwasi", "Kwadwo","Kwabena", "Kwaku", "Yaw","Kofi", "Kwame"];
 var femaleNames= ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama" ];
 var birthDays= ["sunday","monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
 
-if () 
+if ()
