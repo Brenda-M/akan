@@ -33,12 +33,13 @@ p{
   color: blue;
   text-indent: 40px;
   align:justify;
-  padding: 20px;
+  padding: 10px;
 }
 
 h2, h4{
   text-align: center;
   font-weight: bold;
+  margin: 20px;
 }
 
 .card{
@@ -46,15 +47,22 @@ h2, h4{
   border-radius: 20px;
 }
 
-
-
 table.akannames{
   width: 55%;
   border: 1px solid black;
   padding: 20px;
-  margin-left: 20px;
   font-size: 16px;
   margin-left:15%;
   margin-right:15%;
+  margin-bottom: 10%;
   border-collapse: collapse;
 }
+
+.footer{
+
+        background-color: black;
+        color: blue;
+        font-size: 20px;
+        margin: 30px;
+        text-align: center;
+    }
