@@ -43,7 +43,7 @@ h2, h4{
 }
 
 .card{
-  background-color: #bdb7ab;
+  background-color: #908A7E;
   border-radius: 20px;
 }
 
@@ -54,8 +54,12 @@ table.akannames{
   font-size: 16px;
   margin-left:15%;
   margin-right:15%;
-  margin-bottom: 10%;
+  margin-bottom:10%;
   border-collapse: collapse;
+}
+
+.choose-date{
+  font-size: 14px;
 }
 
 .footer{
