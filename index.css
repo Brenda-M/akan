@@ -8,68 +8,65 @@
 
 
 body{
-  font-family: 'EB Garamond', serif;
-  background-image:url("background.jpg")
-
+  font-family: 'Metal Mania', cursive;
+  background-image: url('yoel-winkler-a0BGODzhmqg-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.jumbotron{
-  text-align: center;
-  font-size: large;
-  border: 0.08em solid black;
-  margin: 120px 100px 40px 120px;
-  border-radius: 30px;
-  padding: 20px;
-  background-color: #8B008B;
-}
 
 #title{
   font-family: 'Shrikhand', cursive;
-  text-shadow: #0080FF 1px 0 10px;
-  font-size: 50px;
+  text-shadow: #FD6B9A 1px 0 10px;
+  font-size: 30px;
+  text-align: center;
+  margin:1rem;
+}
+
+
+.btn{
+  background-color: #FD6B9A;
+  cursor: pointer;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  transition: 0.8s;
+}
+  
+.btn:hover{
+  transform: scale(0.96);
 }
 
 p{
-  font-size: 25px;
-  color: black;
-  text-indent: 40px;
-  align:justify;
-  padding: 10px;
+  text-align:center;
 }
 
-h2, h4{
+.content{
+  width:700px;
+  padding:30px;
+  margin: 5rem auto;
+  background-color: #ffffff;
+  box-shadow: 2px 2px #000000;
+
+}
+
+.content input{
+  display:block;
+  width: 100%;
+  padding: 0 20px;
+  margin-top: 10px;
+  height: 44px;
   text-align: center;
-  font-weight: bold;
-  margin: 20px;
-}
-h5{
-  margin-bottom: 20px;
-}
-
-.card{
-  background-color: #e6e9ed;
-  border-radius: 20px;
+  box-sizing: border-box;
+  outline: none;
+  border-top:0;
+  border-right:0;
+  border-left:0;
+  border-bottom: 0.5px solid #FD6B9A;
 }
 
-table.akannames{
-  width: 55%;
-  border: 1px solid black;
-  padding: 20px;
-  font-size: 16px;
-  margin-left:15%;
-  margin-right:15%;
-  margin-bottom:10%;
-  border-collapse: collapse;
-}
 
-.choose-date{
-  font-size: 14px;
-}
 
-.footer{
 
-        background-color: #8B008B;
-        font-size: 20px;
-        margin: 30px;
-        text-align: center;
-    }
+
+
+

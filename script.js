@@ -1,3 +1,7 @@
+document.getElementById("submitForm").addEventListener("click ", function(event){
+  event.preventDefault()
+});
+
 function birthDate() {
   // Obtain the values entered in the form
   const DD = document.getElementById("date").value;
@@ -71,4 +75,6 @@ function birthDate() {
   }
 
   document.getElementById("display").innerHTML = `Your akan name is ${name} because you were born on a ${day}`;
+  document.getElementById('submitForm').reset()
+ 
 }
