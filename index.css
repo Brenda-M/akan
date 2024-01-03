@@ -12,7 +12,48 @@ body{
   background-image: url('yoel-winkler-a0BGODzhmqg-unsplash.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
 }
+
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.content{
+  width: 100%;
+  max-width: 700px;
+  padding:30px;
+  margin: 5rem auto;
+  background-color: #ffffff;
+  box-shadow: 2px 2px #000000;
+  z-index: 1;
+}
+
+
+.content input{
+  display:block;
+  width: 100%;
+  padding: 0 20px;
+  margin-top: 10px;
+  height: 44px;
+  text-align: center;
+  box-sizing: border-box;
+  outline: none;
+  border-top:0;
+  border-right:0;
+  border-left:0;
+  border-bottom: 0.5px solid #FD6B9A;
+}
+
 
 
 #title{
@@ -22,7 +63,6 @@ body{
   text-align: center;
   margin:1rem;
 }
-
 
 .btn{
   background-color: #FD6B9A;
@@ -40,29 +80,6 @@ p{
   text-align:center;
 }
 
-.content{
-  width:700px;
-  padding:30px;
-  margin: 5rem auto;
-  background-color: #ffffff;
-  box-shadow: 2px 2px #000000;
-
-}
-
-.content input{
-  display:block;
-  width: 100%;
-  padding: 0 20px;
-  margin-top: 10px;
-  height: 44px;
-  text-align: center;
-  box-sizing: border-box;
-  outline: none;
-  border-top:0;
-  border-right:0;
-  border-left:0;
-  border-bottom: 0.5px solid #FD6B9A;
-}
 
 
 
